@@ -75,7 +75,7 @@ body {
     height: 80px;
 }
 
-.menu-btn{
+.menu-btn {
     display: none;
     width: 40px;
     height: 30px;
@@ -83,7 +83,7 @@ body {
     justify-content: space-between;
 }
 
-.menu-btn span{
+.menu-btn span {
     width: 100%;
     height: 2px;
     background-color: #000000;
@@ -307,14 +307,14 @@ body {
     text-transform: uppercase;
     padding: 14px 15px;
     border: 1px solid;
-    border-image:  linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+    border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
     width: 225px;
     text-align: center;
 }
 
 .game__item {
     border: 1px solid;
-    border-image:  linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+    border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
     padding: 20px 20px 18px;
     display: flex;
     flex-direction: column;
@@ -380,26 +380,26 @@ body {
     }
 }
 
-.equipment{
+.equipment {
     margin-bottom: 100px;
 }
 
-.equipment__title{
+.equipment__title {
     margin-bottom: 50px;
 }
 
-.equipment__box{
+.equipment__box {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
 }
 
-.equipment__box-img{
+.equipment__box-img {
     margin-bottom: 10px;
 }
 
-.equipment__box-title{
+.equipment__box-title {
     font-size: 36px;
     background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
     -webkit-background-clip: text;
@@ -408,15 +408,15 @@ body {
     line-height: 50px;
 }
 
-.equipment__box-item--one{
+.equipment__box-item--one {
     grid-row: 1/-1;
 }
 
-.promo{
+.promo {
     margin-bottom: 100px;
 }
 
-.promo__inner{
+.promo__inner {
     background-image: url(../images/promo.jpg);
     min-height: 500px;
     background-size: cover;
@@ -426,7 +426,7 @@ body {
     position: relative;
 }
 
-.promo__btn{
+.promo__btn {
     font-weight: 700;
     color: #fff;
     background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
@@ -443,15 +443,15 @@ body {
     margin: 0 auto;
 }
 
-.accessories{
+.accessories {
     margin-bottom: 100px;
 }
 
-.accessories__title{
+.accessories__title {
     margin-bottom: 30px;
 }
 
-.accessories__text{
+.accessories__text {
     margin-bottom: 30px;
     font-size: 36px;
     background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
@@ -460,36 +460,36 @@ body {
     text-transform: uppercase;
 }
 
-.accessories__items{
+.accessories__items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
-.accessories__item{
+.accessories__item {
     padding: 20px;
     border: 1px solid;
-    border-image:  linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+    border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.accessories__item-img{
+.accessories__item-img {
     margin-bottom: 10px;
 }
 
-.accessories__item-title{
+.accessories__item-title {
     font-size: 24px;
     color: #070707;
     min-height: 67px;
 }
 
-.accessories__item-text{
+.accessories__item-text {
     margin-bottom: 35px;
     margin-top: auto;
 }
 
-.accessories__item-price{
+.accessories__item-price {
     font-weight: 700;
     color: #070707;
     line-height: 18px;
@@ -497,9 +497,9 @@ body {
     margin-top: auto;
 }
 
-.accessories__item-btn{
+.accessories__item-btn {
     border: 1px solid;
-    border-image:  linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+    border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
     padding: 6px;
     font-weight: 700;
     background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
@@ -509,45 +509,45 @@ body {
     width: 100%;
 }
 
-.contacts{
+.contacts {
     margin-bottom: 100px;
 }
 
-.contacts__title{
+.contacts__title {
     font-size: 24px;
     line-height: 33px;
     color: #070707;
     margin-bottom: 10px;
 }
 
-.contacts__inner{
+.contacts__inner {
     display: flex;
     justify-content: space-between;
     align-items: end;
 }
 
-.contacts__form{
+.contacts__form {
     flex-basis: 600px;
 }
 
-.contacts__text{
+.contacts__text {
     font-size: 13px;
 }
 
-.form{
+.form {
     margin-bottom: 10px;
     position: relative;
 }
 
 
-.form__input{
+.form__input {
     width: 100%;
     border: none;
     border-bottom: 1px solid #cacad6;
     padding: 22px 70px 22px 0;
 }
 
-.form__input::placeholder{
+.form__input::placeholder {
     font-family: 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -556,7 +556,7 @@ body {
     color: #cacad6;
 }
 
-.form__btn{
+.form__btn {
     width: 50px;
     height: 50px;
     background-color: #cacad6;
@@ -569,62 +569,71 @@ body {
     bottom: 5px;
 }
 
-.footer{
+.footer {
     border-top: 1px solid #cacad6;
     padding: 30px 0;
 }
 
-.social{
+.social {
     display: flex;
     gap: 20px;
     justify-self: end;
 }
 
 @media (max-width: 1140px) {
-    .footer .menu{
+    .footer .menu {
         display: none;
     }
-    .footer .nav{
+
+    .footer .nav {
         display: flex;
         justify-content: space-between;
     }
 }
 
-@media (max-width: 992px){
-    .tabs{
+@media (max-width: 992px) {
+    .tabs {
         display: block;
     }
-    .tabs__btn{
+
+    .tabs__btn {
         display: block;
         column-count: 2;
     }
-    .tabs__btn-item{
+
+    .tabs__btn-item {
         display: block;
     }
-    .game__inner{
+
+    .game__inner {
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
     }
-    .accessories__items{
+
+    .accessories__items {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
 }
 
 @media (max-width: 820px) {
-    .equipment__box{
+    .equipment__box {
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .contacts__inner{
+
+    .contacts__inner {
         display: block;
     }
-    .contacts__form{
+
+    .contacts__form {
         margin-bottom: 20px;
     }
-    .menu-btn{
+
+    .menu-btn {
         display: flex;
     }
-    .menu{
+
+    .menu {
         transform: translateX(-100%);
         transition: transform .6s;
         position: absolute;
@@ -638,102 +647,121 @@ body {
         align-items: center;
         flex-direction: column;
     }
-    .menu.menu--active{
+
+    .menu.menu--active {
         transform: translateX(0%);
     }
 
-    .menu__link{
+    .menu__link {
         font-size: 24px;
         padding: 10px 0;
         display: inline-block;
     }
 }
 
-@media (max-width: 768px){
-    .title{
+@media (max-width: 768px) {
+    .title {
         font-size: 66px;
     }
-    .subtitle{
+
+    .subtitle {
         font-size: 24px;
     }
 }
 
 @media (max-width: 640px) {
-    .buy-btn{
+    .buy-btn {
         flex-direction: column;
         margin: 0 auto;
     }
-    .top{
+
+    .top {
         text-align: center;
     }
 }
 
-@media (max-width: 568px){
-    .features__titles{
+@media (max-width: 568px) {
+    .features__titles {
         display: block;
     }
-    .tabs__content-item{
+
+    .tabs__content-item {
         position: relative;
         display: block;
         height: 0;
     }
-    .tabs__content-item--active{
+
+    .tabs__content-item--active {
         height: auto;
     }
-    .video{
+
+    .video {
         width: auto;
         height: 250px;
         margin-top: 20px;
     }
-    .game__inner{
+
+    .game__inner {
         grid-template-columns: repeat(1, 1fr);
         gap: 25px;
     }
-    .equipment__box{
+
+    .equipment__box {
         display: block;
     }
-    .equipment__box-img{
+
+    .equipment__box-img {
         width: 100%;
         object-fit: cover;
     }
-    .equipment__box-text{
+
+    .equipment__box-text {
         margin-bottom: 10px;
     }
-    .accessories__items{
+
+    .accessories__items {
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
     }
-    .accessories__text{
+
+    .accessories__text {
         font-size: 28px;
     }
-    .nav{
+
+    .nav {
         grid-template-columns: 1fr 2fr 1fr;
     }
-    .footer .nav{
+
+    .footer .nav {
         flex-direction: column;
         height: auto;
     }
-    .social{
+
+    .social {
         order: -1;
         margin-bottom: 20px;
         gap: 30px;
     }
 }
 
-@media (max-width: 420px){
-    .title{
+@media (max-width: 420px) {
+    .title {
         font-size: 48px;
     }
-    .subtitle{
+
+    .subtitle {
         font-size: 20px;
     }
-    .tabs__btn{
+
+    .tabs__btn {
         column-count: 1;
     }
-    .features__text{
+
+    .features__text {
         font-size: 32px;
     }
-    .menu{
+
+    .menu {
         width: 100%;
     }
 }
